@@ -1,0 +1,20 @@
+{
+  "name": "logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.1.23",
+    "moment": "^2.10.2",
+    "split": "^0.3.3",
+    "spotcheck": "0.0.5",
+    "through": "^2.3.7",
+    "zlib": "^1.0.5"
+  }
+}
