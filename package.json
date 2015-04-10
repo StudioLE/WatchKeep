@@ -1,13 +1,26 @@
 {
-  "name": "logs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "WatchKeep",
+  "version": "0.0.1",
+  "description": "An NPM module to fetch and parse S3 & CloudFront logs",
+  "keywords": ["aws", "s3", "cloudfront", "logs", "log", "files"],
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StudioLE/WatchKeep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StudioLE/WatchKeep/issues"
+  },
+  "homepage": "https://github.com/StudioLE/WatchKeep",
+  "author": {
+    "name": "Laurence Elsdon",
+    "email": "hi@studiole.uk",
+    "url": "https://studiole.uk"
+  },
+  "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
     "aws-sdk": "^2.1.23",
