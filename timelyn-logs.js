@@ -1,4 +1,7 @@
-var spotcheck = require('./lib/spotlog');
+var spotlog = require('./lib/spotlog');
 
-spotcheck.readConfig('config/cf.json', '04-07-2015');
-spotcheck.run();
+spotlog.readConfig('config/cf.json', '04-07-2015')
+
+spotlog.run(function(err, results) {
+  console.log(results)
+})
