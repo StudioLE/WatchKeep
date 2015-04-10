@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "An NPM module to fetch and parse S3 & CloudFront logs",
   "keywords": ["aws", "s3", "cloudfront", "logs", "log", "files"],
-  "main": "lib/index.js",
+  "main": "lib/watchkeep.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
