@@ -1,6 +1,6 @@
 var s3Config = {
   'key': 'YOUR_AWS_ACCESS_KEY_ID',
-  'secret': 'YOUR_AWS_SECRET_KEY_ID',
+  'secret': 'YOUR_AWS_SECRET_KEY_ID'
 }
 
 // For CloudFront logs
