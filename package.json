@@ -24,6 +24,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "aws-sdk": "^2.1.23",
+    "underscore": "1.8.3",
     "moment": "^2.10.2",
     "split": "^0.3.3"
   }
