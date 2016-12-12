@@ -19,10 +19,14 @@ var logConfig = {
 
 watchkeep = require('watchkeep')(s3Config, logConfig)
 
+var today = new Date()
+
 var params = {
-  // Optional date filter
-  date: '2015-04',
-  // Optional array of paths to ignore
+  // [Optional] Date prefix filter
+  date: '2016-12',
+  // [Optional] date prefix filter for current month
+  date: today.getFullYear() + '-' + today.getMonth() + 1,
+  // [Optional] array of paths to ignore
   exclude: [
     'path/to/logs/DISTRIBUTION_ID.2015-04-10-11.abcdefgh.gz',
     'path/to/logs/DISTRIBUTION_ID.2015-04-10-12.hgfedcba.gz'
