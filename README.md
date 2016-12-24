@@ -84,6 +84,20 @@ watchkeep.run(params, function(err, results, paths) {
 })
 ``` 
 
+## Tests
+
+To run tests with mocha
+
+```
+npm test
+```
+
+However you'll need to set the variables for your environment first
+
+```
+set AWS_KEY=YOUR_AWS_ACCESS_KEY_ID& set AWS_SECRET=YOUR_AWS_SECRET_KEY_ID& set CF_BUCKET=YOUR_CF_LOG_BUCKET& set CF_PREFIX=path/to/logs/DISTRIBUTION_ID.& set S3_BUCKET=YOUR_S3_LOG_BUCKET& set S3_PREFIX=path/to/logs/
+```
+
 ## Credit
 
 This module is, in a vague way, a fork of [SpotCheck](https://github.com/spanishdict/spotcheck): a simple command line utility to retrieve and parse S3, CloudFront and CloudTrail logs.
