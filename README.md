@@ -1,4 +1,4 @@
-# WatchKeep
+# WatchKeep [![Build Status](https://travis-ci.org/StudioLE/WatchKeep.svg?branch=master)](https://travis-ci.org/StudioLE/WatchKeep)
 
 An NPM module to retrieve and parse S3 and CloudFront logs.
 
