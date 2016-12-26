@@ -1,6 +1,13 @@
 language: node_js
 node_js:
-  - '4.3'
-
+- '4.3'
 script:
-  - npm test
+- npm test
+deploy:
+  provider: npm
+  email: le@studiole.uk
+  api_key:
+    secure: rwo0x2D+LLIJtZl8l3NdBa/Ef6zjQKHeYKWfGd346gUDNAvi7aeua0oVR/97i0nG1nbqrHGUdMn6+7zm74Llq7r5NqsSXxGRqfz9z1wkz4QwJgICfPklA59YtyxGLpLr/J3+yKyEdclKzL4VxYq7drZElaXx6qs9HPlxbZr+5gCa6oIo4+77eHm1X0ttMP4EFB+HNPMqIrukAdHqfJlU2w6CSJ+7vPovYppEWebjjiS1HHm23m2u7piB5mXJkPfxYTuWdRfWFHrKKtsPCy20grw3EcyUIDtU3fdXb3QfPBC7rQ73bvR5L3BBlNweOpgy8716RI/uJ8A788pdSM0HZGHLQ2AI2KHwGpdnPfezVpdAVHfhTDimuI5PQBbjhROD1p/XjUMps7czH27Wy2ne8wankIHUUlziPHADvbWu1afcmR8d1hwESL1ExTWuhLzp8bz1Yrlz7sx98AEtaz6Sqn/Y07MgHxXcOk9sDWmX1pyhM29g1EKwuws//ICcS3Y+tQIjPlL39im8QjgmAJVC6lFhpMgxxuzeZKMTwpR+sSMnuDiv1iKeTI5mmdS7tA9Cp4Rbl7lp8rixDb5hxBL772bfre8ssMFrizyye310oofcmXiOCovSpudrGyv1nsT5/vAPJftwxjnzo1uY8P1GoDoTG13FllqJ5Yfgr4QswPc=
+  on:
+    tags: true
+    repo: StudioLE/WatchKeep
