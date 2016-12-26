@@ -11,14 +11,16 @@ var logConfig = {
   cf: {
     bucket: process.env.CF_BUCKET,
     prefix: process.env.CF_PREFIX,
-    format: 'cloudfront'
+    format: 'cloudfront',
+    limit: 10
   },
 
   // For S3 logs
   s3: {
     bucket: process.env.S3_BUCKET,
     prefix: process.env.S3_PREFIX,
-    format: 's3'
+    format: 's3',
+    limit: 10
   }
 }
 

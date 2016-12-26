@@ -7,14 +7,16 @@ var s3Config = {
 var logConfig = {
   bucket: 'YOUR_S3_LOG_BUCKET',
   prefix: 'path/to/logs/DISTRIBUTION_ID.',
-  format: 'cloudfront'
+  format: 'cloudfront',
+  limit: 1000 // [Optional] number of log files to inspect default: 1000
 }
 
 // For S3 logs
 var logConfig = {
   bucket: 'YOUR_S3_LOG_BUCKET',
   prefix: 'path/to/logs/',
-  format: 's3'
+  format: 's3',
+  limit: 1000 // [Optional] number of log files to inspect default: 1000
 }
 
 watchkeep = require('watchkeep')(s3Config, logConfig)
